@@ -1,0 +1,52 @@
+What is HTTP?
+
+Stands for hypertext transfer protocol. Is an application layer protocol, used to give a structure in the process of 
+transfering resources between a computer and a server.
+
+What is a URL?
+
+Stands for uniform resource locator. Used with protocols, primarily HTTP/HTTPS.
+Broken down into a protocol indicator, a hostname, port, resource indicator and a query string
+which combine together to act as an identifier to locate something on the internet.
+
+
+What is DNS?
+
+Stands for Domain Name System. Is a naming system that translates host names to an IP address we can use to locate where something is on the larger internet network. 
+
+
+What is a query string?
+
+Found at the end of the URL, it is passed onto the web application in question to be processed. 
+
+
+What are two HTTP verbs and how are they different?
+
+
+GET and POST are the two "main" HTTP verbs. The primary difference is that GET requests do not alter anything on the server side of things while POST does.
+
+
+What is an HTTP request?
+
+A HTTP request is a signal sent to a server asking for certain resources. It contains the HTTP verb (GET or POST), protocol version, resource URL, and several headers containing 
+tidbits of information that detail our request in many ways.
+
+
+What is an HTTP response?
+
+A response is data sent from a server in response to a request. It contains the protocol version, a response code, and headers with information in a similar fashion to response headers.
+
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+HTTP headers contain additional information that detail the HTTP request/response to a greater level, and consequently improve the specificity of information we are passing
+back and forth.
+
+Examples of request headers: Accept (what kind of data can be returned), Cookies (saving information client-side)
+
+Examples of response headers: Content-type (original type of content), Last-Modified (last time data was modified)
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+Browser turns hostname into IP address using DNS. Makes a HTTP request to that IP address, which hopefully in turn sends back a response. Browser then utilizes
+that data to create probably a website of elements that can lead to further interaction via response/requests.
